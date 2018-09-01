@@ -32,10 +32,18 @@ public class GameManager : MonoBehaviour
             evidenceFound.Add(e, choice);
     }
 
-    public bool isCorrectEvidence()
+    public bool isCorrectEvidence(int s)
     {
-        //TODO: Create correct Evidence sequence
-        return false; //You lose
+        //TODO: finish Evidence sequence
+        //pick a random number, if it's less than or equal to the score, the case is plausible
+        if (Random.Range(1, 101) <= s)
+        {
+            return true;
+        }
+        else
+        {
+            return false; //You lose
+        }
     }
 
     /// <summary>

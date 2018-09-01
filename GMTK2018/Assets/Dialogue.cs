@@ -7,7 +7,7 @@ using TMPro;
 public class Dialogue : MonoBehaviour
 {
     public GameObject dialougeBox;
-    public Button option1, option2, option3;
+    public Button option1, option2, option3, cancel;
 
     [HideInInspector]
     public string choice_text1, choice_text2, choice_text3;
@@ -27,7 +27,9 @@ public class Dialogue : MonoBehaviour
         option1.onClick.AddListener(delegate { RegisterOption(1); });
         option2.onClick.AddListener(delegate { RegisterOption(2); });
         option3.onClick.AddListener(delegate { RegisterOption(3); });
+        cancel.onClick.AddListener(delegate { clear(); });
     }
+
 
     void manageText()
     {
@@ -50,6 +52,7 @@ public class Dialogue : MonoBehaviour
             option1.gameObject.SetActive(false);
             option2.gameObject.SetActive(false);
             option3.gameObject.SetActive(false);
+            cancel.gameObject.SetActive(false);
             dialougeBox.gameObject.SetActive(false);
         }
     }
