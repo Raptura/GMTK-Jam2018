@@ -9,7 +9,7 @@ public class Player : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+
 	}
 	
 	// Update is called once per frame
@@ -34,8 +34,20 @@ public class Player : MonoBehaviour {
 
     }
 
-    void action() {
-    
+    void OnTriggerStay2D(Collider2D other)
+    {
+        Debug.Log("This will be called every frame");
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            if (other.gameObject.GetComponent<EvidenceBehaviour>())
+            {
+                EvidenceBehaviour eb = other.GetComponent<EvidenceBehaviour>();
+                lookAtEvidence(eb.evidenceData);
+            }
+        }
     }
 
+    void lookAtEvidence(Evidence e) {
+        FindObjectOfType<Dialogue>().setupDialogue(e);
+    }
 }

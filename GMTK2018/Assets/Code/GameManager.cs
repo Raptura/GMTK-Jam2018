@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-
-
     public static GameManager gm = null;
 
     public Dictionary<Evidence, int> evidenceFound;

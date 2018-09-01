@@ -47,8 +47,10 @@ public class Dialogue : MonoBehaviour
             option2.gameObject.SetActive(choice_text2 != null);
             option3.gameObject.SetActive(choice_text3 != null);
             dialougeBox.gameObject.SetActive(true);
+            cancel.gameObject.SetActive(true);
         }
-        else {
+        else
+        {
             option1.gameObject.SetActive(false);
             option2.gameObject.SetActive(false);
             option3.gameObject.SetActive(false);
@@ -68,12 +70,14 @@ public class Dialogue : MonoBehaviour
         currentEvidence = null;
         choice_text1 = choice_text2 = choice_text3 = null;
         manageText();
+        Time.timeScale = 1;
     }
 
     public void setupDialogue(Evidence e)
     {
         currentEvidence = e;
         manageText();
+        Time.timeScale = 0;
     }
 
 }
