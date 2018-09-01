@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -36,7 +36,6 @@ public class Player : MonoBehaviour {
 
     void OnTriggerStay2D(Collider2D other)
     {
-        Debug.Log("This will be called every frame");
         if (Input.GetKeyDown(KeyCode.Space))
         {
             if (other.gameObject.GetComponent<EvidenceBehaviour>())
