@@ -5,19 +5,20 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
 
-    public Dictionary<Evidence, int> evidenceFound = new Dictionary<Evidence, int>();
+
+    public static GameManager gm = null;
+
+    public Dictionary<Evidence, int> evidenceFound;
 
 
     // Use this for initialization
-    void Start()
+    void Awake()
     {
+        DontDestroyOnLoad(gameObject);
+        evidenceFound = new Dictionary<Evidence, int>();
 
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
+        if(gm == null)
+            gm = this;
     }
 
     /// <summary>
@@ -30,7 +31,6 @@ public class GameManager : MonoBehaviour
         if (evidenceFound.ContainsKey(e) == false)
             evidenceFound.Add(e, choice);
     }
-
 
     public bool isCorrectEvidence()
     {
@@ -64,6 +64,9 @@ public class GameManager : MonoBehaviour
                     break;
             }
         }
+
+        if (log.Count == 0)
+            log.Add("There was no evidence found...");
 
         return log;
     }
