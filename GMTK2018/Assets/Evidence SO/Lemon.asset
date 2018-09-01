@@ -9,14 +9,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 19437dd6f5317db4d81331fbd42fa158, type: 3}
-  m_Name: Microphone
+  m_Name: Lemon
   m_EditorClassIdentifier: 
-  dialouge_1: They must have tripped over the microphone's wire.
-  dialouge_2: They must have been strangled by the mircrophone's wire.
-  dialouge_3: They must have been doing karaoke before the murder took place.
+  dialouge_1: They must have really enjoyed citruis fruits
+  dialouge_2: 
+  dialouge_3: 
   case_option_1: 
   case_option_2: 
   case_option_3: 
-  score1: -1
-  score2: -1
-  score3: 1
+  score1: 0
+  score2: 0
+  score3: 0
