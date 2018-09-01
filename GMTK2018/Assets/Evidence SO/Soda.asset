@@ -9,14 +9,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 19437dd6f5317db4d81331fbd42fa158, type: 3}
-  m_Name: Lemon
+  m_Name: Soda
   m_EditorClassIdentifier: 
-  dialouge_1: They must have really enjoyed citruis fruits
-  dialouge_2: They were tripping on citric acid
-  dialouge_3: They were impaled by this lemon
+  dialouge_1: 'They drowned in soda
+
+'
+  dialouge_2: The can was the murder weapon
+  dialouge_3: The soda's manufacturer sent a hitman after the victim
   case_option_1: 
   case_option_2: 
   case_option_3: 
-  score1: 1
-  score2: 0
-  score3: -1
+  score1: -1
+  score2: -1
+  score3: 1
