@@ -15,7 +15,7 @@ public class CameraScript : MonoBehaviour {
 	void Start () {
         cam = GetComponent<Camera>();
         cam.orthographic = true;
-        cam.orthographicSize = 2.5f;
+        cam.orthographicSize = 3f;
 	}
 	
 	// Update is called once per frame
