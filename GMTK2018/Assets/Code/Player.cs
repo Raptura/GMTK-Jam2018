@@ -34,10 +34,10 @@ public class Player : MonoBehaviour {
                 switch (lastDir)
                 {
                     case 0:
-                        sr.sprite = spritesb[2];
+                        sr.sprite = spritesf[2];
                         break;
                     case 1:
-                        sr.sprite = spritesf[2];
+                        sr.sprite = spritesb[2];
                         break;
                     case 2:
                         sr.sprite = spritesl[2];
@@ -68,13 +68,13 @@ public class Player : MonoBehaviour {
         {
             transform.Translate(Vector2.up * Time.deltaTime * movSpeed);
             sr.sprite = spritesb[Frame];
-            lastDir = 0;
+            lastDir = 1;
         }
         if (Input.GetKey(KeyCode.DownArrow))
         {
             transform.Translate(Vector2.down * Time.deltaTime * movSpeed);
             sr.sprite = spritesf[Frame];
-            lastDir = 1;
+            lastDir = 0;
         }
         if (Input.GetKey(KeyCode.LeftArrow))
         {
