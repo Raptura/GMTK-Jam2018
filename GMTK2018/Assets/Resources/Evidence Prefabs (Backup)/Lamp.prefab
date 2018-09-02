@@ -21,8 +21,7 @@ GameObject:
   - component: {fileID: 4332488219743504}
   - component: {fileID: 212745784811887480}
   - component: {fileID: 114349614518718090}
-  - component: {fileID: 50104681360092446}
-  - component: {fileID: 61045049954633174}
+  - component: {fileID: 60383272509472032}
   m_Layer: 0
   m_Name: Lamp
   m_TagString: Untagged
@@ -43,28 +42,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &50104681360092446
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1660337622142148}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!61 &61045049954633174
-BoxCollider2D:
+--- !u!60 &60383272509472032
+PolygonCollider2D:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -85,9 +64,27 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4, y: 4}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.30834675, y: 1.5844158}
+      - {x: -0.10592556, y: 1.5637175}
+      - {x: -0.5160904, y: 1.3078393}
+      - {x: -0.875, y: 1.375}
+      - {x: -0.730113, y: 0.5836039}
+      - {x: -0.54077435, y: 0.30507135}
+      - {x: -0.773119, y: 0.05602777}
+      - {x: -1.063756, y: -0.28533912}
+      - {x: -1.3246202, y: -0.5825856}
+      - {x: -2, y: -0.6846597}
+      - {x: -1.855113, y: -1.397321}
+      - {x: -1.2798128, y: -1.3818686}
+      - {x: -0.9906206, y: -0.8311062}
+      - {x: -0.5010853, y: -0.4349916}
+      - {x: -0.05884838, y: -0.2589271}
+      - {x: 0.98335934, y: -0.46428466}
+      - {x: 1.3467703, y: 0.17174113}
+      - {x: 1.4180193, y: 1.4180192}
+      - {x: 0.8543024, y: 1.5223215}
 --- !u!114 &114349614518718090
 MonoBehaviour:
   m_ObjectHideFlags: 1

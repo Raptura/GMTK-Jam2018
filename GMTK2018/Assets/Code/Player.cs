@@ -39,11 +39,11 @@ public class Player : MonoBehaviour {
 
     void OnTriggerStay2D(Collider2D other)
     {
+        if (GameManager.gm.paused)
+            return;
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            if (GameManager.gm.paused)
-                return;
-
             if (other.gameObject.GetComponent<EvidenceBehaviour>())
             {
                 EvidenceBehaviour eb = other.GetComponent<EvidenceBehaviour>();
