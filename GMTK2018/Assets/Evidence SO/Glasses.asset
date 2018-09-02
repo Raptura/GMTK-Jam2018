@@ -14,9 +14,13 @@ MonoBehaviour:
   dialouge_1: The culprit left these at the scene
   dialouge_2: These are the victims glasses
   dialouge_3: These glasses are clearly fake!
-  case_option_1: 
-  case_option_2: 
-  case_option_3: 
-  score1: 1
+  case_option_1: The culprit left some glasses at the scene? Seems like something
+    they would need to get out though? No?
+  case_option_2: 'Makes sense the victims glasses would be here at the scene, this
+    is their house after all... '
+  case_option_3: 'Why would anybody have fake glasses? Do they feel like they have
+    something to prove? I dont understand why people need to be such jerks and make
+    fun of people who wear glasses. Damn kids and their non perscription Gunnars! '
+  score1: -1
   score2: 1
-  score3: -1
+  score3: 5

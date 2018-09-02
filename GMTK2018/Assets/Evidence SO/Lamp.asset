@@ -11,12 +11,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19437dd6f5317db4d81331fbd42fa158, type: 3}
   m_Name: Lamp
   m_EditorClassIdentifier: 
-  dialouge_1: 
-  dialouge_2: 
-  dialouge_3: 
-  case_option_1: 
-  case_option_2: 
-  case_option_3: 
-  score1: 0
-  score2: 0
-  score3: 0
+  dialouge_1: The lamp was already on the ground
+  dialouge_2: There was a scuffle and the lamp fell
+  dialouge_3: They must have gotten electrocuted by the lamp
+  case_option_1: Why would the lamp be on the ground already? Thats a fire hazzard!
+  case_option_2: Seems like there were signs of a struggle and the lamp fell...makes
+    sense i suppose.
+  case_option_3: They got electrocuted by the lamp? That sounds like he took a lot
+    of damage!
+  score1: -3
+  score2: -1
+  score3: 4

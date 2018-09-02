@@ -62,7 +62,7 @@ public class GameManager : MonoBehaviour
     {
         //TODO: finish Evidence sequence
         //pick a random number, if it's less than or equal to the score, the case is plausible
-        if (Random.Range(1, 101) <= getScore())
+        if (Random.Range(1, 15) <= getScore())
         {
             return true;
         }

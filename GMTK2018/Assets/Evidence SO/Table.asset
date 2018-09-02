@@ -14,9 +14,12 @@ MonoBehaviour:
   dialouge_1: There was a wrestling match, involving the table
   dialouge_2: The table gave the victim a splinter
   dialouge_3: The victim stubbed their toe on the table
-  case_option_1: 
-  case_option_2: 
-  case_option_3: 
+  case_option_1: A wrestling match involving the table you say? I wonder if John Cena
+    had something to do with this case...
+  case_option_2: Sometimes i get splinters from tables too...Im not suprised he got
+    a splinter.
+  case_option_3: That table is so huge i wouldnt be suprised if someone stubbed their
+    toe on the table. It only makes sense.
   score1: 1
   score2: 0
   score3: 1

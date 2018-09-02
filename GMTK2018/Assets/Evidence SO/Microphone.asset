@@ -14,9 +14,12 @@ MonoBehaviour:
   dialouge_1: They must have tripped over the microphone's wire.
   dialouge_2: They must have been strangled by the mircrophone's wire.
   dialouge_3: They must have been doing karaoke before the murder took place.
-  case_option_1: 
-  case_option_2: 
-  case_option_3: 
+  case_option_1: That microphones cord was so short, im suprised they slipped over
+    the microphones wire.
+  case_option_2: You're telling me someone STRANGLED the victim with this short microphone
+    wire?! Thats a wild thought...
+  case_option_3: I wonder what songs they were singing...As long as they have "Ocean
+    Avenue" by Yellowcard, i cant deny it must have been a great time.
   score1: -1
   score2: -1
   score3: 1

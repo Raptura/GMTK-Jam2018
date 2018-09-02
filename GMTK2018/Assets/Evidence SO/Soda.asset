@@ -16,9 +16,12 @@ MonoBehaviour:
 '
   dialouge_2: The can was the murder weapon
   dialouge_3: The soda's manufacturer sent a hitman after the victim
-  case_option_1: 
-  case_option_2: 
-  case_option_3: 
-  score1: -1
-  score2: -1
-  score3: 1
+  case_option_1: Dude if you can drown in this soda you must be the size of a small
+    lemon, i guess its not impossible though...
+  case_option_2: What, did they slap the can across the guys head until he bled to
+    death? Thats not too farfetched of an idea...
+  case_option_3: Your saying the soda manufacturer sent a hit after the victim? I
+    wonder what he did to anger someone that important.
+  score1: -4
+  score2: -3
+  score3: -2

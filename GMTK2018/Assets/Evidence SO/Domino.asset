@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Name: Domino
   m_EditorClassIdentifier: 
   dialouge_1: Clearly they were playing dominos because they were waiting for a pizza
-  dialouge_2: 
-  dialouge_3: 
-  case_option_1: 
-  case_option_2: 
-  case_option_3: 
+  dialouge_2: 11 domino is signifying 11-11-11, thats the day Skrim came out!
+  dialouge_3: They must have gambled with this!
+  case_option_1: A piping hot dominos pizza was involved? Understandable i guess...
+  case_option_2: So you are saying he must have been playing Skyrim or something when
+    the incident occured? Interesting...
+  case_option_3: They gambled their life savings away? Seems like there would be better
+    games to play then dominos...like cards or something, but i guess that makes sense...
   score1: 1
-  score2: 0
+  score2: 1
   score3: 0
