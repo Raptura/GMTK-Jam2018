@@ -20,8 +20,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4537392113545916}
   - component: {fileID: 212711816210355754}
-  - component: {fileID: 114263570581469798}
   - component: {fileID: 60063422420706718}
+  - component: {fileID: 50107510166430076}
+  - component: {fileID: 114754391806375668}
   m_Layer: 0
   m_Name: Box
   m_TagString: Untagged
@@ -42,6 +43,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &50107510166430076
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1009217365118794}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 0
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!60 &60063422420706718
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -72,7 +93,7 @@ PolygonCollider2D:
       - {x: 1, y: -0.8125}
       - {x: 1, y: 0.625}
       - {x: -0.25, y: 0.625}
---- !u!114 &114263570581469798
+--- !u!114 &114754391806375668
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}

@@ -14,9 +14,10 @@ MonoBehaviour:
   dialouge_1: They must have gotten shot by the banana gun!
   dialouge_2: They must have slipped on this banana peel
   dialouge_3: They must have been allergic to bananas
-  case_option_1: 
-  case_option_2: 
-  case_option_3: 
+  case_option_1: You mean to tell me there was a gun...shaped like a a banana? That
+    shoots bananas?
+  case_option_2: The guy slipped on a banana peel??
+  case_option_3: The guy was simply allergic to bananas, you say?
   score1: -1
   score2: 100
   score3: -1

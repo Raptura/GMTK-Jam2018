@@ -12,11 +12,14 @@ MonoBehaviour:
   m_Name: Box
   m_EditorClassIdentifier: 
   dialouge_1: He jumped inside this box to invoke his imagination!
-  dialouge_2: 
-  dialouge_3: 
-  case_option_1: 
-  case_option_2: 
-  case_option_3: 
+  dialouge_2: Must have been waiting for this package for a while
+  dialouge_3: This must be one of those boxing day limited edition cardboard boxes!
+  case_option_1: People still jump into boxes for imagination? What a loser.
+  case_option_2: Seems like he had Amazon prime, but maybe the package came late this
+    time.
+  case_option_3: I heard Dbrand had some cardboard boxes to sell and they sold 20,000
+    of their limited edition boxes in one day. Your saying it could be that very same
+    box?
   score1: 1
   score2: -1
   score3: -1

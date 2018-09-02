@@ -47,12 +47,13 @@ public class Player : MonoBehaviour {
             if (other.gameObject.GetComponent<EvidenceBehaviour>())
             {
                 EvidenceBehaviour eb = other.GetComponent<EvidenceBehaviour>();
-                lookAtEvidence(eb.evidenceData);
+                FindObjectOfType<Dialogue>().setUpEvidence(eb.evidenceData); //Look at the evidence
+            }
+
+            if (other.gameObject.GetComponent<Phone>()) {
+                FindObjectOfType<Dialogue>().phoneScene();
             }
         }
     }
 
-    void lookAtEvidence(Evidence e) {
-        FindObjectOfType<Dialogue>().setupDialogue(e);
-    }
 }
