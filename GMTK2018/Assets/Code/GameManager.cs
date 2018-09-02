@@ -13,7 +13,6 @@ public class GameManager : MonoBehaviour
     // Use this for initialization
     void Awake()
     {
-        DontDestroyOnLoad(gameObject);
         evidenceFound = new Dictionary<Evidence, int>();
 
         if (gm == null)
