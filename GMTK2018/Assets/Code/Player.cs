@@ -5,10 +5,11 @@ using UnityEngine;
 public class Player : MonoBehaviour {
 
     private float movSpeed = 2; // units per second
-    public float updateDelay = 0.5f;
-    public int Frame;
-    public float lastChanged;
-    public int lastDir;
+
+    private float updateDelay = 0.25f;
+    private int Frame;
+    private float lastChanged;
+    private int lastDir;
     
 
     // Use this for initialization

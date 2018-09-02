@@ -169,7 +169,7 @@ public class Dialogue : MonoBehaviour
             option1.gameObject.SetActive(true);
             option1.onClick.AddListener(delegate
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                SceneManager.LoadScene(0); //Reset Game
             });
 
             if (GameManager.gm.isCorrectEvidence())
