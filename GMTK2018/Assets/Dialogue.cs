@@ -132,9 +132,9 @@ public class Dialogue : MonoBehaviour
         clear(true);
 
         option1.gameObject.SetActive(true);
-        option1.GetComponentInChildren<TextMeshProUGUI>().text = "Yes Hi!";
+        option1.GetComponentInChildren<TextMeshProUGUI>().text = "I would like to report in!";
         dialougeBox.gameObject.SetActive(true);
-        dialougeBox.GetComponentInChildren<TextMeshProUGUI>().text = "Hello?";
+        dialougeBox.GetComponentInChildren<TextMeshProUGUI>().text = "Hello? Do you have any evidence you would like to report in?";
 
 
         string[] case_details = GameManager.gm.buildEvidenceLog().ToArray();
