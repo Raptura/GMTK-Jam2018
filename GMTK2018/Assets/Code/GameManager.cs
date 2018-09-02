@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
     public static GameManager gm = null;
 
     public Dictionary<Evidence, int> evidenceFound;
+    public bool paused = false;
 
 
     // Use this for initialization

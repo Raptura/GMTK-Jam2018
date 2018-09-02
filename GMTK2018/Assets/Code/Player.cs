@@ -20,6 +20,9 @@ public class Player : MonoBehaviour {
 
     void handleInput()
     {
+        if (GameManager.gm.paused)
+            return;
+
         //ULDR Spacebar
         if (Input.GetKey(KeyCode.UpArrow))
             transform.Translate(Vector2.up * Time.deltaTime * movSpeed);
@@ -38,6 +41,9 @@ public class Player : MonoBehaviour {
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            if (GameManager.gm.paused)
+                return;
+
             if (other.gameObject.GetComponent<EvidenceBehaviour>())
             {
                 EvidenceBehaviour eb = other.GetComponent<EvidenceBehaviour>();
